@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in width/height */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: black; /* Black background for body */
+}
+
+.bg {
+    background-image: url("images/71606410468.png");
+    background-repeat: repeat;
+
+    /* Full height minus the banner */
+    height: calc(150% - 8vh); /* Adjust to account for banner height */
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner {
+    position: relative; 
+    left: 0%;
+    top: 0;
+    
+    background-color: #f1cb62; 
+    width: 100%; 
+    height: 8vh; 
+    border-radius: 0px;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 6dvh;
+    color: rgb(37, 37, 37); 
+    line-height: 8vh; 
+    margin: 0; 
+}
+
+.toprow {
+    border: 0;
+    height: 115px;
+    width: 115px;
+    
+}
+a,img{
+    border-radius: 15px;
+}
+a{
+    text-align: center;
+    font-family:"Lexend" ;
+    font-weight: bold;
+    color: bisque;
+    text-decoration: none;
+    display: flex; /* Use flexbox for anchor */
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center items horizontally */
+
+}
+td {
+    text-align: center; /* Center content horizontally */
+    border-collapse: collapse;
+    padding:10px;
+
+    height: 150px; /* Set a fixed height for better vertical centering */
+   
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+#group1 {
+    text-align: center; /* Center the header text */
+    height: 5vh;
+    width:200vh; /* Use 100% width instead of a fixed width */
+    
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(253, 207, 120);
+}
+#group2 {
+    text-align: center; /* Center the header text */
+    height: 5vh;
+    width:200vh; /* Use 100% width instead of a fixed width */
+    
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(224, 167, 81);
+}
+#table1{
+    margin:auto;
+    width: 75%;
+    border-collapse: collapse;
+}
+#table2{
+    margin: auto;
+}
+tr{
+    align-items: center;
+}
