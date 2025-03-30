@@ -1,25 +1,17 @@
 * {
-    box-sizing: border-box; /* Ensure padding and borders are included in width/height */
-}
+    box-sizing: border-box; }
 
 html, body {
     height: 100%;
     margin: 0;
-    background-color: black; /* Black background for body */
+    background-color: black; 
 }
 
 .bg {
-    background-image: url("images/71606410468.png");
-    background-repeat: repeat;
-
-    /* Full height minus the banner */
-    height: calc(150% - 8vh); /* Adjust to account for banner height */
+    background: rgb(31,29,42);
+    background: linear-gradient(90deg, rgba(31,29,42,1) 0%, rgba(31,29,46,1) 40%, rgba(31,29,46,1) 100%);
+    height: calc(100% - 8vh);     
     width: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-size: cover;
-    
 }
 
 .banner {
@@ -27,7 +19,7 @@ html, body {
     left: 0%;
     top: 0;
     
-    background-color: #f1cb62; 
+    background-color: #908CAA; 
     width: 100%; 
     height: 8vh; 
     border-radius: 0px;
@@ -48,51 +40,52 @@ html, body {
     width: 115px;
     
 }
+
 a,img{
     border-radius: 15px;
 }
 a{
     text-align: center;
-    font-family:"Lexend" ;
+    font-family:"Bytesized", sans-serif ;
     font-weight: bold;
-    color: bisque;
+    color: #E0DEF4;
     text-decoration: none;
-    display: flex; /* Use flexbox for anchor */
-    flex-direction: column; /* Stack icon and text vertically */
-    align-items: center; /* Center items horizontally */
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    font-size: 21px;
 
 }
 td {
-    text-align: center; /* Center content horizontally */
+    text-align: center; 
     border-collapse: collapse;
     padding:10px;
 
-    height: 150px; /* Set a fixed height for better vertical centering */
+    height: 150px; 
    
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: default;
 }
 
 
 #group1 {
-    text-align: center; /* Center the header text */
+    text-align: center; 
     height: 5vh;
-    width:200vh; /* Use 100% width instead of a fixed width */
+    width:10vh;
     
     font-size: 30px;
     font-weight: bolder;
-    color: rgb(253, 207, 120);
+    color: #EBBCBA;
 }
 #group2 {
-    text-align: center; /* Center the header text */
+    text-align: center; 
     height: 5vh;
-    width:200vh; /* Use 100% width instead of a fixed width */
-    
+    width:200vh; 
     font-size: 30px;
     font-weight: bolder;
-    color: rgb(224, 167, 81);
+    color: #EBBCBA;
 }
 #table1{
     margin:auto;
